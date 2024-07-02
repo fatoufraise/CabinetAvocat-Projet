@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.content h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+.content p {
+    color: #666;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
